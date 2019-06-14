@@ -1,0 +1,13 @@
+php  ./php54n/test.php start -d 1 16802 神兽大厅
+#php  ./php54n/game2.php start -d 2 16803 9人牛牛1
+#php  ./php54n/game1.php start -d 5 16804 6人斗牛1
+php  ./php54n/game5.php start -d 6 16805 炸金花
+#php  ./php54n/game10.php start -d 8 16806 12
+#php  ./php54n/game3.php start -d 9 16807 三公
+#php  ./php54n/game14.php start -d 10 16808 9人牛牛8倍
+#php  ./php54n/game4.php start -d 11 16809 九人三公
+#php  ./php54n/game6.php start -d 14 16811 二八杠
+php  ./php54n/game16.php start -d 17 16812 九人炸金花
+#php  ./php54n/game17.php start -d 18 16813 	12人吉祥三公
+#php  ./php54n/game26.php start -d 22 16814 五兽12人鱼虾蟹
+#php  ./php54n/game27.php start -d 23 16815 五兽9人牌九

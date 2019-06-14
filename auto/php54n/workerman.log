@@ -1,0 +1,1174 @@
+2018-09-11 23:19:39 pid:3003 ParseError: syntax error, unexpected '}', expecting end of file in /www/wwwroot/n0.exp77.cn/auto/php54n/act/rule.php:242
+Stack trace:
+#0 /www/wwwroot/n0.exp77.cn/auto/php54n/act/xzplay.php(513): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#1 /www/wwwroot/n0.exp77.cn/auto/php54n/test.php(105): include('/www/wwwroot/n0...')
+#2 /www/wwwroot/n0.exp77.cn/auto/php54n/act/gameserver.php(49): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#3 /www/wwwroot/n0.exp77.cn/auto/php54n/test.php(105): include('/www/wwwroot/n0...')
+#4 /www/wwwroot/n0.exp77.cn/auto/php54n/test.php(85): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#5 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"id":1,"act":"...')
+#6 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Connection/TcpConnection.php(311): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"id":1,"act":"...')
+#7 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #10583)
+#8 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Events/Select.php(167): call_user_func_array(Array, Array)
+#9 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(1064): Workerman\Events\Select->loop()
+#10 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(541): Workerman\Worker->run()
+#11 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(513): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#12 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(79): Workerman\Worker::forkWorkers()
+#13 /www/wwwroot/n0.exp77.cn/auto/php54n/test.php(87): Workerman\Worker::runAll()
+#14 {main}
+2018-09-11 23:19:39 pid:3003 Worker[3003] process terminated
+2018-09-11 23:19:39 pid:3001 worker[none:3003] exit with status 64000
+2018-09-11 23:19:42 pid:4902 ParseError: syntax error, unexpected '}', expecting end of file in /www/wwwroot/n0.exp77.cn/auto/php54n/act/rule.php:242
+Stack trace:
+#0 /www/wwwroot/n0.exp77.cn/auto/php54n/act/xzplay.php(513): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#1 /www/wwwroot/n0.exp77.cn/auto/php54n/test.php(105): include('/www/wwwroot/n0...')
+#2 /www/wwwroot/n0.exp77.cn/auto/php54n/act/gameserver.php(49): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#3 /www/wwwroot/n0.exp77.cn/auto/php54n/test.php(105): include('/www/wwwroot/n0...')
+#4 /www/wwwroot/n0.exp77.cn/auto/php54n/test.php(85): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#5 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"id":1,"act":"...')
+#6 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Connection/TcpConnection.php(311): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"id":1,"act":"...')
+#7 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #36)
+#8 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Events/Select.php(167): call_user_func_array(Array, Array)
+#9 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(1064): Workerman\Events\Select->loop()
+#10 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(541): Workerman\Worker->run()
+#11 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(513): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#12 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(615): Workerman\Worker::forkWorkers()
+#13 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(81): Workerman\Worker::monitorWorkers()
+#14 /www/wwwroot/n0.exp77.cn/auto/php54n/test.php(87): Workerman\Worker::runAll()
+#15 {main}
+2018-09-11 23:19:42 pid:4902 Worker[4902] process terminated
+2018-09-11 23:19:42 pid:3001 worker[none:4902] exit with status 64000
+2018-09-11 23:20:02 pid:4903 ParseError: syntax error, unexpected '}', expecting end of file in /www/wwwroot/n0.exp77.cn/auto/php54n/act/rule.php:243
+Stack trace:
+#0 /www/wwwroot/n0.exp77.cn/auto/php54n/act/xzplay.php(513): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#1 /www/wwwroot/n0.exp77.cn/auto/php54n/test.php(105): include('/www/wwwroot/n0...')
+#2 /www/wwwroot/n0.exp77.cn/auto/php54n/act/gameserver.php(49): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#3 /www/wwwroot/n0.exp77.cn/auto/php54n/test.php(105): include('/www/wwwroot/n0...')
+#4 /www/wwwroot/n0.exp77.cn/auto/php54n/test.php(85): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#5 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"id":1,"act":"...')
+#6 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Connection/TcpConnection.php(311): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"id":1,"act":"...')
+#7 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #37)
+#8 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Events/Select.php(167): call_user_func_array(Array, Array)
+#9 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(1064): Workerman\Events\Select->loop()
+#10 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(541): Workerman\Worker->run()
+#11 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(513): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#12 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(615): Workerman\Worker::forkWorkers()
+#13 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(81): Workerman\Worker::monitorWorkers()
+#14 /www/wwwroot/n0.exp77.cn/auto/php54n/test.php(87): Workerman\Worker::runAll()
+#15 {main}
+2018-09-11 23:20:02 pid:4903 Worker[4903] process terminated
+2018-09-11 23:20:02 pid:3001 worker[none:4903] exit with status 64000
+2018-09-11 23:20:19 pid:4917 ParseError: syntax error, unexpected '}', expecting end of file in /www/wwwroot/n0.exp77.cn/auto/php54n/act/rule.php:240
+Stack trace:
+#0 /www/wwwroot/n0.exp77.cn/auto/php54n/act/xzplay.php(513): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#1 /www/wwwroot/n0.exp77.cn/auto/php54n/test.php(105): include('/www/wwwroot/n0...')
+#2 /www/wwwroot/n0.exp77.cn/auto/php54n/act/gameserver.php(49): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#3 /www/wwwroot/n0.exp77.cn/auto/php54n/test.php(105): include('/www/wwwroot/n0...')
+#4 /www/wwwroot/n0.exp77.cn/auto/php54n/test.php(85): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#5 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"id":1,"act":"...')
+#6 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Connection/TcpConnection.php(311): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"id":1,"act":"...')
+#7 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #38)
+#8 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Events/Select.php(167): call_user_func_array(Array, Array)
+#9 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(1064): Workerman\Events\Select->loop()
+#10 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(541): Workerman\Worker->run()
+#11 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(513): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#12 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(615): Workerman\Worker::forkWorkers()
+#13 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(81): Workerman\Worker::monitorWorkers()
+#14 /www/wwwroot/n0.exp77.cn/auto/php54n/test.php(87): Workerman\Worker::runAll()
+#15 {main}
+2018-09-11 23:20:19 pid:4917 Worker[4917] process terminated
+2018-09-11 23:20:19 pid:3001 worker[none:4917] exit with status 64000
+2018-09-11 23:20:28 pid:4919 ParseError: syntax error, unexpected '}', expecting end of file in /www/wwwroot/n0.exp77.cn/auto/php54n/act/rule.php:240
+Stack trace:
+#0 /www/wwwroot/n0.exp77.cn/auto/php54n/act/xzplay.php(513): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#1 /www/wwwroot/n0.exp77.cn/auto/php54n/test.php(105): include('/www/wwwroot/n0...')
+#2 /www/wwwroot/n0.exp77.cn/auto/php54n/act/gameserver.php(49): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#3 /www/wwwroot/n0.exp77.cn/auto/php54n/test.php(105): include('/www/wwwroot/n0...')
+#4 /www/wwwroot/n0.exp77.cn/auto/php54n/test.php(85): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#5 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"id":1,"act":"...')
+#6 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Connection/TcpConnection.php(311): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"id":1,"act":"...')
+#7 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #43)
+#8 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Events/Select.php(167): call_user_func_array(Array, Array)
+#9 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(1064): Workerman\Events\Select->loop()
+#10 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(541): Workerman\Worker->run()
+#11 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(513): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#12 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(615): Workerman\Worker::forkWorkers()
+#13 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(81): Workerman\Worker::monitorWorkers()
+#14 /www/wwwroot/n0.exp77.cn/auto/php54n/test.php(87): Workerman\Worker::runAll()
+#15 {main}
+2018-09-11 23:20:28 pid:4919 Worker[4919] process terminated
+2018-09-11 23:20:28 pid:3001 worker[none:4919] exit with status 64000
+2018-09-11 23:23:21 pid:4920 ParseError: syntax error, unexpected ',' in /www/wwwroot/n0.exp77.cn/auto/php54n/act/xzplay.php:590
+Stack trace:
+#0 /www/wwwroot/n0.exp77.cn/auto/php54n/act/gameserver.php(49): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#1 /www/wwwroot/n0.exp77.cn/auto/php54n/test.php(105): include('/www/wwwroot/n0...')
+#2 /www/wwwroot/n0.exp77.cn/auto/php54n/test.php(85): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#3 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"id":1,"act":"...')
+#4 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Connection/TcpConnection.php(311): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"id":1,"act":"...')
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #40)
+#6 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Events/Select.php(167): call_user_func_array(Array, Array)
+#7 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(1064): Workerman\Events\Select->loop()
+#8 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(541): Workerman\Worker->run()
+#9 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(513): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#10 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(615): Workerman\Worker::forkWorkers()
+#11 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(81): Workerman\Worker::monitorWorkers()
+#12 /www/wwwroot/n0.exp77.cn/auto/php54n/test.php(87): Workerman\Worker::runAll()
+#13 {main}
+2018-09-11 23:23:21 pid:4920 Worker[4920] process terminated
+2018-09-11 23:23:21 pid:3001 worker[none:4920] exit with status 64000
+2018-09-11 23:23:24 pid:4926 ParseError: syntax error, unexpected ',' in /www/wwwroot/n0.exp77.cn/auto/php54n/act/xzplay.php:590
+Stack trace:
+#0 /www/wwwroot/n0.exp77.cn/auto/php54n/act/gameserver.php(49): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#1 /www/wwwroot/n0.exp77.cn/auto/php54n/test.php(105): include('/www/wwwroot/n0...')
+#2 /www/wwwroot/n0.exp77.cn/auto/php54n/test.php(85): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#3 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"id":1,"act":"...')
+#4 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Connection/TcpConnection.php(311): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"id":1,"act":"...')
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #41)
+#6 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Events/Select.php(167): call_user_func_array(Array, Array)
+#7 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(1064): Workerman\Events\Select->loop()
+#8 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(541): Workerman\Worker->run()
+#9 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(513): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#10 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(615): Workerman\Worker::forkWorkers()
+#11 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(81): Workerman\Worker::monitorWorkers()
+#12 /www/wwwroot/n0.exp77.cn/auto/php54n/test.php(87): Workerman\Worker::runAll()
+#13 {main}
+2018-09-11 23:23:24 pid:4926 Worker[4926] process terminated
+2018-09-11 23:23:24 pid:3001 worker[none:4926] exit with status 64000
+2018-09-12 00:47:26 pid:3058 ParseError: syntax error, unexpected '}' in /www/wwwroot/n0.exp77.cn/auto/php54n/game49/startroom.php:76
+Stack trace:
+#0 /www/wwwroot/n0.exp77.cn/auto/php54n/game49/zhunbei.php(64): reqact(Array, '')
+#1 /www/wwwroot/n0.exp77.cn/auto/php54n/game49.php(121): include('/www/wwwroot/n0...')
+#2 /www/wwwroot/n0.exp77.cn/auto/php54n/game49.php(98): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#3 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"act":"zhunbei...')
+#4 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Connection/TcpConnection.php(311): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"act":"zhunbei...')
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #35)
+#6 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Events/Select.php(167): call_user_func_array(Array, Array)
+#7 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(1064): Workerman\Events\Select->loop()
+#8 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(541): Workerman\Worker->run()
+#9 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(513): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#10 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(79): Workerman\Worker::forkWorkers()
+#11 /www/wwwroot/n0.exp77.cn/auto/php54n/game49.php(100): Workerman\Worker::runAll()
+#12 {main}
+2018-09-12 00:47:26 pid:3058 Worker[3058] process terminated
+2018-09-12 00:47:26 pid:3057 worker[none:3058] exit with status 64000
+2018-09-12 00:47:49 pid:2996 Workerman[server.php] stopping ...
+2018-09-12 00:47:49 pid:3025 Workerman[game14.php] stopping ...
+2018-09-12 00:47:49 pid:3057 Workerman[game49.php] stopping ...
+2018-09-12 00:47:49 pid:3034 Workerman[game6.php] stopping ...
+2018-09-12 00:47:49 pid:3038 Workerman[game16.php] stopping ...
+2018-09-12 00:47:49 pid:3034 worker[none:3036] exit with status 4991
+2018-09-12 00:47:49 pid:3034 Workerman[game6.php] has been stopped
+2018-09-12 00:47:49 pid:3005 Workerman[game2.php] stopping ...
+2018-09-12 00:47:49 pid:3017 Workerman[game10.php] stopping ...
+2018-09-12 00:47:49 pid:3043 Workerman[game17.php] stopping ...
+2018-09-12 00:47:49 pid:3043 worker[none:3044] exit with status 4991
+2018-09-12 00:47:49 pid:3043 Workerman[game17.php] has been stopped
+2018-09-12 00:47:49 pid:3013 Workerman[game5.php] stopping ...
+2018-09-12 00:47:49 pid:3013 worker[none:3015] exit with status 4991
+2018-09-12 00:47:49 pid:3013 Workerman[game5.php] has been stopped
+2018-09-12 00:47:49 pid:3029 Workerman[game4.php] stopping ...
+2018-09-12 00:47:49 pid:3029 worker[none:3031] exit with status 4991
+2018-09-12 00:47:49 pid:3001 Workerman[test.php] stopping ...
+2018-09-12 00:47:49 pid:3029 Workerman[game4.php] has been stopped
+2018-09-12 00:47:49 pid:3001 worker[none:4927] exit with status 4991
+2018-09-12 00:47:49 pid:3001 Workerman[test.php] has been stopped
+2018-09-12 00:47:49 pid:3052 Workerman[game27.php] stopping ...
+2018-09-12 00:47:49 pid:3047 Workerman[game26.php] stopping ...
+2018-09-12 00:47:49 pid:3047 worker[none:3050] exit with status 4991
+2018-09-12 00:47:49 pid:3047 Workerman[game26.php] has been stopped
+2018-09-12 00:47:49 pid:3021 Workerman[game3.php] stopping ...
+2018-09-12 00:47:49 pid:3009 Workerman[game1.php] stopping ...
+2018-09-12 00:48:34 pid:2978 Workerman[./server.php] start in DAEMON mode
+2018-09-12 00:48:34 pid:2984 Workerman[./php54n/test.php] start in DAEMON mode
+2018-09-12 00:48:34 pid:2987 Workerman[./php54n/game2.php] start in DAEMON mode
+2018-09-12 00:48:34 pid:2992 Workerman[./php54n/game1.php] start in DAEMON mode
+2018-09-12 00:48:34 pid:2996 Workerman[./php54n/game5.php] start in DAEMON mode
+2018-09-12 00:48:34 pid:3000 Workerman[./php54n/game10.php] start in DAEMON mode
+2018-09-12 00:48:34 pid:3005 Workerman[./php54n/game3.php] start in DAEMON mode
+2018-09-12 00:48:34 pid:3008 Workerman[./php54n/game14.php] start in DAEMON mode
+2018-09-12 00:48:34 pid:3012 Workerman[./php54n/game4.php] start in DAEMON mode
+2018-09-12 00:48:34 pid:3018 Workerman[./php54n/game6.php] start in DAEMON mode
+2018-09-12 00:48:34 pid:3023 Workerman[./php54n/game16.php] start in DAEMON mode
+2018-09-12 00:48:34 pid:3029 Workerman[./php54n/game17.php] start in DAEMON mode
+2018-09-12 00:48:34 pid:3033 Workerman[./php54n/game26.php] start in DAEMON mode
+2018-09-12 00:48:34 pid:3038 Workerman[./php54n/game27.php] start in DAEMON mode
+2018-09-12 00:48:34 pid:3046 Workerman[./php54n/game49.php] start in DAEMON mode
+2018-09-12 00:48:46 pid:3052 ParseError: syntax error, unexpected '}' in /www/wwwroot/n0.exp77.cn/auto/php54n/game49/startroom.php:76
+Stack trace:
+#0 /www/wwwroot/n0.exp77.cn/auto/php54n/game49/zhunbei.php(64): reqact(Array, '')
+#1 /www/wwwroot/n0.exp77.cn/auto/php54n/game49.php(121): include('/www/wwwroot/n0...')
+#2 /www/wwwroot/n0.exp77.cn/auto/php54n/game49.php(98): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#3 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"act":"zhunbei...')
+#4 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Connection/TcpConnection.php(311): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"act":"zhunbei...')
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #67)
+#6 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Events/Select.php(167): call_user_func_array(Array, Array)
+#7 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(1064): Workerman\Events\Select->loop()
+#8 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(541): Workerman\Worker->run()
+#9 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(513): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#10 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(79): Workerman\Worker::forkWorkers()
+#11 /www/wwwroot/n0.exp77.cn/auto/php54n/game49.php(100): Workerman\Worker::runAll()
+#12 {main}
+2018-09-12 00:48:46 pid:3052 Worker[3052] process terminated
+2018-09-12 00:48:46 pid:3051 worker[none:3052] exit with status 64000
+2018-09-12 00:48:49 pid:3058 ParseError: syntax error, unexpected '}' in /www/wwwroot/n0.exp77.cn/auto/php54n/game49/startroom.php:76
+Stack trace:
+#0 /www/wwwroot/n0.exp77.cn/auto/php54n/game49/zhunbei.php(64): reqact(Array, '')
+#1 /www/wwwroot/n0.exp77.cn/auto/php54n/game49.php(121): include('/www/wwwroot/n0...')
+#2 /www/wwwroot/n0.exp77.cn/auto/php54n/game49.php(98): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#3 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"act":"zhunbei...')
+#4 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Connection/TcpConnection.php(311): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"act":"zhunbei...')
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #36)
+#6 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Events/Select.php(167): call_user_func_array(Array, Array)
+#7 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(1064): Workerman\Events\Select->loop()
+#8 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(541): Workerman\Worker->run()
+#9 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(513): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#10 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(615): Workerman\Worker::forkWorkers()
+#11 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(81): Workerman\Worker::monitorWorkers()
+#12 /www/wwwroot/n0.exp77.cn/auto/php54n/game49.php(100): Workerman\Worker::runAll()
+#13 {main}
+2018-09-12 00:48:49 pid:3058 Worker[3058] process terminated
+2018-09-12 00:48:49 pid:3051 worker[none:3058] exit with status 64000
+2018-09-12 00:48:54 pid:3059 ParseError: syntax error, unexpected '}' in /www/wwwroot/n0.exp77.cn/auto/php54n/game49/startroom.php:76
+Stack trace:
+#0 /www/wwwroot/n0.exp77.cn/auto/php54n/game49/zhunbei.php(64): reqact(Array, '')
+#1 /www/wwwroot/n0.exp77.cn/auto/php54n/game49.php(121): include('/www/wwwroot/n0...')
+#2 /www/wwwroot/n0.exp77.cn/auto/php54n/game49.php(98): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#3 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"act":"zhunbei...')
+#4 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Connection/TcpConnection.php(311): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"act":"zhunbei...')
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #37)
+#6 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Events/Select.php(167): call_user_func_array(Array, Array)
+#7 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(1064): Workerman\Events\Select->loop()
+#8 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(541): Workerman\Worker->run()
+#9 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(513): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#10 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(615): Workerman\Worker::forkWorkers()
+#11 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(81): Workerman\Worker::monitorWorkers()
+#12 /www/wwwroot/n0.exp77.cn/auto/php54n/game49.php(100): Workerman\Worker::runAll()
+#13 {main}
+2018-09-12 00:48:54 pid:3059 Worker[3059] process terminated
+2018-09-12 00:48:54 pid:3051 worker[none:3059] exit with status 64000
+2018-09-12 00:50:24 pid:3060 ParseError: syntax error, unexpected '}' in /www/wwwroot/n0.exp77.cn/auto/php54n/game49/startroom.php:76
+Stack trace:
+#0 /www/wwwroot/n0.exp77.cn/auto/php54n/game49/zhunbei.php(64): reqact(Array, '')
+#1 /www/wwwroot/n0.exp77.cn/auto/php54n/game49.php(121): include('/www/wwwroot/n0...')
+#2 /www/wwwroot/n0.exp77.cn/auto/php54n/game49.php(98): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#3 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"act":"zhunbei...')
+#4 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Connection/TcpConnection.php(311): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"act":"zhunbei...')
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #38)
+#6 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Events/Select.php(167): call_user_func_array(Array, Array)
+#7 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(1064): Workerman\Events\Select->loop()
+#8 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(541): Workerman\Worker->run()
+#9 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(513): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#10 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(615): Workerman\Worker::forkWorkers()
+#11 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(81): Workerman\Worker::monitorWorkers()
+#12 /www/wwwroot/n0.exp77.cn/auto/php54n/game49.php(100): Workerman\Worker::runAll()
+#13 {main}
+2018-09-12 00:50:24 pid:3060 Worker[3060] process terminated
+2018-09-12 00:50:24 pid:3051 worker[none:3060] exit with status 64000
+2018-09-12 00:50:49 pid:2999 Workerman[game5.php] stopping ...
+2018-09-12 00:50:49 pid:3043 Workerman[game27.php] stopping ...
+2018-09-12 00:50:49 pid:3007 Workerman[game3.php] stopping ...
+2018-09-12 00:50:49 pid:2988 Workerman[test.php] stopping ...
+2018-09-12 00:50:49 pid:3037 Workerman[game26.php] stopping ...
+2018-09-12 00:50:49 pid:3011 Workerman[game14.php] stopping ...
+2018-09-12 00:50:49 pid:2991 Workerman[game2.php] stopping ...
+2018-09-12 00:50:49 pid:3021 Workerman[game6.php] stopping ...
+2018-09-12 00:50:49 pid:3021 worker[none:3022] exit with status 4991
+2018-09-12 00:50:49 pid:3003 Workerman[game10.php] stopping ...
+2018-09-12 00:50:49 pid:3021 Workerman[game6.php] has been stopped
+2018-09-12 00:50:49 pid:3015 Workerman[game4.php] stopping ...
+2018-09-12 00:50:49 pid:2995 Workerman[game1.php] stopping ...
+2018-09-12 00:50:49 pid:2982 Workerman[server.php] stopping ...
+2018-09-12 00:50:49 pid:3028 Workerman[game16.php] stopping ...
+2018-09-12 00:50:49 pid:3028 worker[none:3030] exit with status 4991
+2018-09-12 00:50:49 pid:3028 Workerman[game16.php] has been stopped
+2018-09-12 00:50:49 pid:3034 Workerman[game17.php] stopping ...
+2018-09-12 00:50:49 pid:3051 Workerman[game49.php] stopping ...
+2018-09-12 00:51:35 pid:2982 Workerman[./server.php] start in DAEMON mode
+2018-09-12 00:51:35 pid:2988 Workerman[./php54n/test.php] start in DAEMON mode
+2018-09-12 00:51:35 pid:2992 Workerman[./php54n/game2.php] start in DAEMON mode
+2018-09-12 00:51:35 pid:2992 Workerman[./php54n/game2.php] already running
+2018-09-12 00:51:35 pid:2994 Workerman[./php54n/game1.php] start in DAEMON mode
+2018-09-12 00:51:35 pid:2997 Workerman[./php54n/game5.php] start in DAEMON mode
+2018-09-12 00:51:35 pid:3000 Workerman[./php54n/game10.php] start in DAEMON mode
+2018-09-12 00:51:35 pid:3006 Workerman[./php54n/game3.php] start in DAEMON mode
+2018-09-12 00:51:35 pid:3009 Workerman[./php54n/game14.php] start in DAEMON mode
+2018-09-12 00:51:35 pid:3013 Workerman[./php54n/game4.php] start in DAEMON mode
+2018-09-12 00:51:35 pid:3019 Workerman[./php54n/game6.php] start in DAEMON mode
+2018-09-12 00:51:35 pid:3025 Workerman[./php54n/game16.php] start in DAEMON mode
+2018-09-12 00:51:35 pid:3030 Workerman[./php54n/game17.php] start in DAEMON mode
+2018-09-12 00:51:35 pid:3037 Workerman[./php54n/game26.php] start in DAEMON mode
+2018-09-12 00:51:35 pid:3041 Workerman[./php54n/game27.php] start in DAEMON mode
+2018-09-12 00:51:35 pid:3041 Workerman[./php54n/game27.php] already running
+2018-09-12 00:51:35 pid:3048 Workerman[./php54n/game49.php] start in DAEMON mode
+2018-09-12 00:51:46 pid:3052 ParseError: syntax error, unexpected '}' in /www/wwwroot/n0.exp77.cn/auto/php54n/game49/startroom.php:76
+Stack trace:
+#0 /www/wwwroot/n0.exp77.cn/auto/php54n/game49/zhunbei.php(64): reqact(Array, '')
+#1 /www/wwwroot/n0.exp77.cn/auto/php54n/game49.php(121): include('/www/wwwroot/n0...')
+#2 /www/wwwroot/n0.exp77.cn/auto/php54n/game49.php(98): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#3 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"act":"zhunbei...')
+#4 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Connection/TcpConnection.php(311): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"act":"zhunbei...')
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #53)
+#6 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Events/Select.php(167): call_user_func_array(Array, Array)
+#7 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(1064): Workerman\Events\Select->loop()
+#8 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(541): Workerman\Worker->run()
+#9 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(513): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#10 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(79): Workerman\Worker::forkWorkers()
+#11 /www/wwwroot/n0.exp77.cn/auto/php54n/game49.php(100): Workerman\Worker::runAll()
+#12 {main}
+2018-09-12 00:51:46 pid:3052 Worker[3052] process terminated
+2018-09-12 00:51:46 pid:3051 worker[none:3052] exit with status 64000
+2018-09-12 20:36:18 pid:6461 Workerman[./server.php] start in DAEMON mode
+2018-09-12 20:36:18 pid:6465 Workerman[./php54n/test.php] start in DAEMON mode
+2018-09-12 20:36:18 pid:6468 Workerman[./php54n/game2.php] start in DAEMON mode
+2018-09-12 20:36:18 pid:6471 Workerman[./php54n/game1.php] start in DAEMON mode
+2018-09-12 20:36:18 pid:6475 Workerman[./php54n/game5.php] start in DAEMON mode
+2018-09-12 20:36:18 pid:6478 Workerman[./php54n/game10.php] start in DAEMON mode
+2018-09-12 20:36:18 pid:6481 Workerman[./php54n/game3.php] start in DAEMON mode
+2018-09-12 20:36:18 pid:6484 Workerman[./php54n/game14.php] start in DAEMON mode
+2018-09-12 20:36:18 pid:6487 Workerman[./php54n/game4.php] start in DAEMON mode
+2018-09-12 20:36:18 pid:6491 Workerman[./php54n/game6.php] start in DAEMON mode
+2018-09-12 20:36:18 pid:6494 Workerman[./php54n/game16.php] start in DAEMON mode
+2018-09-12 20:36:18 pid:6497 Workerman[./php54n/game17.php] start in DAEMON mode
+2018-09-12 20:36:18 pid:6500 Workerman[./php54n/game26.php] start in DAEMON mode
+2018-09-12 20:36:18 pid:6503 Workerman[./php54n/game27.php] start in DAEMON mode
+2018-09-12 20:36:18 pid:6508 Workerman[./php54n/game49.php] start in DAEMON mode
+2018-09-13 05:56:28 pid:2986 Workerman[server.php] stopping ...
+2018-09-13 05:56:28 pid:6505 Workerman[game27.php] stopping ...
+2018-09-13 05:56:28 pid:3040 Workerman[game26.php] stopping ...
+2018-09-13 05:56:28 pid:3040 worker[none:3042] exit with status 4991
+2018-09-13 05:56:28 pid:3040 Workerman[game26.php] has been stopped
+2018-09-13 05:56:28 pid:3001 Workerman[game5.php] stopping ...
+2018-09-13 05:56:28 pid:3001 worker[none:3002] exit with status 4991
+2018-09-13 05:56:28 pid:3001 Workerman[game5.php] has been stopped
+2018-09-13 05:56:28 pid:3004 Workerman[game10.php] stopping ...
+2018-09-13 05:56:28 pid:3029 Workerman[game16.php] stopping ...
+2018-09-13 05:56:28 pid:3008 Workerman[game3.php] stopping ...
+2018-09-13 05:56:28 pid:6470 Workerman[game2.php] stopping ...
+2018-09-13 05:56:28 pid:6470 worker[none:6472] exit with status 4991
+2018-09-13 05:56:28 pid:6470 Workerman[game2.php] has been stopped
+2018-09-13 05:56:28 pid:3012 Workerman[game14.php] stopping ...
+2018-09-13 05:56:28 pid:3012 worker[none:3014] exit with status 4991
+2018-09-13 05:56:28 pid:3012 Workerman[game14.php] has been stopped
+2018-09-13 05:56:28 pid:3016 Workerman[game4.php] stopping ...
+2018-09-13 05:56:28 pid:3051 Workerman[game49.php] stopping ...
+2018-09-13 05:56:28 pid:2991 Workerman[test.php] stopping ...
+2018-09-13 05:56:28 pid:2996 Workerman[game1.php] stopping ...
+2018-09-13 05:56:28 pid:3026 Workerman[game6.php] stopping ...
+2018-09-13 05:56:28 pid:3008 worker[none:3010] exit with status 4991
+2018-09-13 05:56:28 pid:3008 Workerman[game3.php] has been stopped
+2018-09-13 05:56:28 pid:3035 Workerman[game17.php] stopping ...
+2018-09-13 05:56:28 pid:3035 worker[none:3038] exit with status 4991
+2018-09-13 05:56:28 pid:3035 Workerman[game17.php] has been stopped
+2018-09-13 05:57:22 pid:3007 Workerman[./server.php] start in DAEMON mode
+2018-09-13 05:57:22 pid:3013 Workerman[./php54n/test.php] start in DAEMON mode
+2018-09-13 05:57:22 pid:3017 Workerman[./php54n/game2.php] start in DAEMON mode
+2018-09-13 05:57:22 pid:3021 Workerman[./php54n/game1.php] start in DAEMON mode
+2018-09-13 05:57:22 pid:3025 Workerman[./php54n/game5.php] start in DAEMON mode
+2018-09-13 05:57:22 pid:3029 Workerman[./php54n/game10.php] start in DAEMON mode
+2018-09-13 05:57:22 pid:3033 Workerman[./php54n/game3.php] start in DAEMON mode
+2018-09-13 05:57:22 pid:3038 Workerman[./php54n/game14.php] start in DAEMON mode
+2018-09-13 05:57:22 pid:3041 Workerman[./php54n/game4.php] start in DAEMON mode
+2018-09-13 05:57:22 pid:3047 Workerman[./php54n/game6.php] start in DAEMON mode
+2018-09-13 05:57:22 pid:3050 Workerman[./php54n/game16.php] start in DAEMON mode
+2018-09-13 05:57:22 pid:3054 Workerman[./php54n/game17.php] start in DAEMON mode
+2018-09-13 05:57:22 pid:3058 Workerman[./php54n/game26.php] start in DAEMON mode
+2018-09-13 05:57:22 pid:3064 Workerman[./php54n/game27.php] start in DAEMON mode
+2018-09-13 05:57:22 pid:3071 Workerman[./php54n/game49.php] start in DAEMON mode
+2018-09-13 06:28:31 pid:3078 ParseError: syntax error, unexpected '}' in /www/wwwroot/n0.exp77.cn/auto/php54n/game49/startroom.php:75
+Stack trace:
+#0 /www/wwwroot/n0.exp77.cn/auto/php54n/game49/zhunbei.php(64): reqact(Array, '')
+#1 /www/wwwroot/n0.exp77.cn/auto/php54n/game49.php(121): include('/www/wwwroot/n0...')
+#2 /www/wwwroot/n0.exp77.cn/auto/php54n/game49.php(98): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#3 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"act":"zhunbei...')
+#4 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Connection/TcpConnection.php(311): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"act":"zhunbei...')
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #65)
+#6 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Events/Select.php(167): call_user_func_array(Array, Array)
+#7 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(1064): Workerman\Events\Select->loop()
+#8 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(541): Workerman\Worker->run()
+#9 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(513): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#10 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(79): Workerman\Worker::forkWorkers()
+#11 /www/wwwroot/n0.exp77.cn/auto/php54n/game49.php(100): Workerman\Worker::runAll()
+#12 {main}
+2018-09-13 06:28:31 pid:3078 Worker[3078] process terminated
+2018-09-13 06:28:31 pid:3075 worker[none:3078] exit with status 64000
+2018-09-13 07:23:55 pid:3220 Error: Call to undefined method stdClass::close() in /www/wwwroot/n0.exp77.cn/auto/php54n/game49/initroom.php:73
+Stack trace:
+#0 /www/wwwroot/n0.exp77.cn/auto/php54n/game49.php(121): include()
+#1 /www/wwwroot/n0.exp77.cn/auto/php54n/game49.php(64): reqact(Array, NULL)
+#2 [internal function]: {closure}(Object(Workerman\Connection\AsyncTcpConnection), '{"timeout":1536...')
+#3 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Connection/TcpConnection.php(311): call_user_func(Object(Closure), Object(Workerman\Connection\AsyncTcpConnection), '{"timeout":1536...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #30)
+#5 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Events/Select.php(167): call_user_func_array(Array, Array)
+#6 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(1064): Workerman\Events\Select->loop()
+#7 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(541): Workerman\Worker->run()
+#8 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(513): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(615): Workerman\Worker::forkWorkers()
+#10 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(81): Workerman\Worker::monitorWorkers()
+#11 /www/wwwroot/n0.exp77.cn/auto/php54n/game49.php(100): Workerman\Worker::runAll()
+#12 {main}
+2018-09-13 07:23:55 pid:3220 Worker[3220] process terminated
+2018-09-13 07:23:55 pid:3075 worker[none:3220] exit with status 64000
+2018-09-13 07:31:00 pid:3032 Workerman[game10.php] stopping ...
+2018-09-13 07:31:00 pid:3020 Workerman[game2.php] stopping ...
+2018-09-13 07:31:00 pid:3020 worker[none:3022] exit with status 4991
+2018-09-13 07:31:00 pid:3020 Workerman[game2.php] has been stopped
+2018-09-13 07:31:00 pid:3057 Workerman[game17.php] stopping ...
+2018-09-13 07:31:00 pid:3049 Workerman[game6.php] stopping ...
+2018-09-13 07:31:00 pid:3040 Workerman[game14.php] stopping ...
+2018-09-13 07:31:00 pid:3024 Workerman[game1.php] stopping ...
+2018-09-13 07:31:00 pid:3016 Workerman[test.php] stopping ...
+2018-09-13 07:31:00 pid:3011 Workerman[server.php] stopping ...
+2018-09-13 07:31:00 pid:3028 Workerman[game5.php] stopping ...
+2018-09-13 07:31:00 pid:3036 Workerman[game3.php] stopping ...
+2018-09-13 07:31:00 pid:3044 Workerman[game4.php] stopping ...
+2018-09-13 07:31:00 pid:3044 worker[none:3046] exit with status 4991
+2018-09-13 07:31:00 pid:3044 Workerman[game4.php] has been stopped
+2018-09-13 07:31:00 pid:3053 Workerman[game16.php] stopping ...
+2018-09-13 07:31:00 pid:3063 Workerman[game26.php] stopping ...
+2018-09-13 07:31:00 pid:3063 worker[none:3065] exit with status 4991
+2018-09-13 07:31:00 pid:3063 Workerman[game26.php] has been stopped
+2018-09-13 07:31:00 pid:3067 Workerman[game27.php] stopping ...
+2018-09-13 07:31:00 pid:3067 worker[none:3070] exit with status 4991
+2018-09-13 07:31:00 pid:3067 Workerman[game27.php] has been stopped
+2018-09-13 07:31:00 pid:3075 Workerman[game49.php] stopping ...
+2018-09-13 07:31:48 pid:2982 Workerman[./server.php] start in DAEMON mode
+2018-09-13 07:31:48 pid:2988 Workerman[./php54n/test.php] start in DAEMON mode
+2018-09-13 07:31:48 pid:2992 Workerman[./php54n/game2.php] start in DAEMON mode
+2018-09-13 07:31:48 pid:2995 Workerman[./php54n/game1.php] start in DAEMON mode
+2018-09-13 07:31:48 pid:3000 Workerman[./php54n/game5.php] start in DAEMON mode
+2018-09-13 07:31:48 pid:3004 Workerman[./php54n/game10.php] start in DAEMON mode
+2018-09-13 07:31:48 pid:3008 Workerman[./php54n/game3.php] start in DAEMON mode
+2018-09-13 07:31:48 pid:3011 Workerman[./php54n/game14.php] start in DAEMON mode
+2018-09-13 07:31:48 pid:3016 Workerman[./php54n/game4.php] start in DAEMON mode
+2018-09-13 07:31:48 pid:3022 Workerman[./php54n/game6.php] start in DAEMON mode
+2018-09-13 07:31:48 pid:3025 Workerman[./php54n/game16.php] start in DAEMON mode
+2018-09-13 07:31:48 pid:3031 Workerman[./php54n/game17.php] start in DAEMON mode
+2018-09-13 07:31:49 pid:3036 Workerman[./php54n/game26.php] start in DAEMON mode
+2018-09-13 07:31:49 pid:3042 Workerman[./php54n/game27.php] start in DAEMON mode
+2018-09-13 07:31:49 pid:3050 Workerman[./php54n/game49.php] start in DAEMON mode
+2018-09-13 08:11:22 pid:3056 Error: Cannot use object of type Workerman\Connection\TcpConnection as array in /www/wwwroot/n0.exp77.cn/auto/php54n/game49/startroom.php:75
+Stack trace:
+#0 /www/wwwroot/n0.exp77.cn/auto/php54n/game49.php(121): include()
+#1 /www/wwwroot/n0.exp77.cn/auto/php54n/game49/zhunbei.php(64): reqact(Array, '')
+#2 /www/wwwroot/n0.exp77.cn/auto/php54n/game49.php(121): include('/www/wwwroot/n0...')
+#3 /www/wwwroot/n0.exp77.cn/auto/php54n/game49.php(98): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#4 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"act":"zhunbei...')
+#5 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Connection/TcpConnection.php(311): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"act":"zhunbei...')
+#6 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #85)
+#7 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Events/Select.php(167): call_user_func_array(Array, Array)
+#8 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(1064): Workerman\Events\Select->loop()
+#9 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(541): Workerman\Worker->run()
+#10 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(513): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#11 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(79): Workerman\Worker::forkWorkers()
+#12 /www/wwwroot/n0.exp77.cn/auto/php54n/game49.php(100): Workerman\Worker::runAll()
+#13 {main}
+2018-09-13 08:11:22 pid:3056 Worker[3056] process terminated
+2018-09-13 08:11:22 pid:3055 worker[none:3056] exit with status 64000
+2018-09-13 08:11:25 pid:3170 Error: Cannot use object of type Workerman\Connection\TcpConnection as array in /www/wwwroot/n0.exp77.cn/auto/php54n/game49/startroom.php:75
+Stack trace:
+#0 /www/wwwroot/n0.exp77.cn/auto/php54n/game49.php(121): include()
+#1 /www/wwwroot/n0.exp77.cn/auto/php54n/game49/zhunbei.php(64): reqact(Array, '')
+#2 /www/wwwroot/n0.exp77.cn/auto/php54n/game49.php(121): include('/www/wwwroot/n0...')
+#3 /www/wwwroot/n0.exp77.cn/auto/php54n/game49.php(98): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#4 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"act":"zhunbei...')
+#5 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Connection/TcpConnection.php(311): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"act":"zhunbei...')
+#6 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #36)
+#7 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Events/Select.php(167): call_user_func_array(Array, Array)
+#8 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(1064): Workerman\Events\Select->loop()
+#9 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(541): Workerman\Worker->run()
+#10 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(513): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#11 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(615): Workerman\Worker::forkWorkers()
+#12 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(81): Workerman\Worker::monitorWorkers()
+#13 /www/wwwroot/n0.exp77.cn/auto/php54n/game49.php(100): Workerman\Worker::runAll()
+#14 {main}
+2018-09-13 08:11:25 pid:3170 Worker[3170] process terminated
+2018-09-13 08:11:25 pid:3055 worker[none:3170] exit with status 64000
+2018-09-14 18:30:26 pid:9677 Workerman[./server.php] start in DAEMON mode
+2018-09-14 18:30:26 pid:9677 Workerman[./server.php] already running
+2018-09-14 18:30:26 pid:9679 Workerman[./php54n/test.php] start in DAEMON mode
+2018-09-14 18:30:26 pid:9679 Workerman[./php54n/test.php] already running
+2018-09-14 18:30:26 pid:9680 Workerman[./php54n/game2.php] start in DAEMON mode
+2018-09-14 18:30:26 pid:9680 Workerman[./php54n/game2.php] already running
+2018-09-14 18:30:26 pid:9681 Workerman[./php54n/game1.php] start in DAEMON mode
+2018-09-14 18:30:26 pid:9681 Workerman[./php54n/game1.php] already running
+2018-09-14 18:30:26 pid:9682 Workerman[./php54n/game5.php] start in DAEMON mode
+2018-09-14 18:30:26 pid:9682 Workerman[./php54n/game5.php] already running
+2018-09-14 18:30:26 pid:9683 Workerman[./php54n/game10.php] start in DAEMON mode
+2018-09-14 18:30:26 pid:9683 Workerman[./php54n/game10.php] already running
+2018-09-14 18:30:26 pid:9684 Workerman[./php54n/game3.php] start in DAEMON mode
+2018-09-14 18:30:26 pid:9684 Workerman[./php54n/game3.php] already running
+2018-09-14 18:30:26 pid:9685 Workerman[./php54n/game14.php] start in DAEMON mode
+2018-09-14 18:30:26 pid:9685 Workerman[./php54n/game14.php] already running
+2018-09-14 18:30:26 pid:9686 Workerman[./php54n/game4.php] start in DAEMON mode
+2018-09-14 18:30:26 pid:9686 Workerman[./php54n/game4.php] already running
+2018-09-14 18:30:26 pid:9688 Workerman[./php54n/game6.php] start in DAEMON mode
+2018-09-14 18:30:26 pid:9688 Workerman[./php54n/game6.php] already running
+2018-09-14 18:30:26 pid:9689 Workerman[./php54n/game16.php] start in DAEMON mode
+2018-09-14 18:30:26 pid:9689 Workerman[./php54n/game16.php] already running
+2018-09-14 18:30:26 pid:9690 Workerman[./php54n/game17.php] start in DAEMON mode
+2018-09-14 18:30:26 pid:9690 Workerman[./php54n/game17.php] already running
+2018-09-14 18:30:26 pid:9691 Workerman[./php54n/game26.php] start in DAEMON mode
+2018-09-14 18:30:26 pid:9691 Workerman[./php54n/game26.php] already running
+2018-09-14 18:30:26 pid:9692 Workerman[./php54n/game27.php] start in DAEMON mode
+2018-09-14 18:30:26 pid:9692 Workerman[./php54n/game27.php] already running
+2018-09-14 18:30:26 pid:9694 Workerman[./php54n/game49.php] start in DAEMON mode
+2018-09-14 18:30:26 pid:9694 Workerman[./php54n/game49.php] already running
+2018-09-14 18:31:46 pid:3003 Workerman[game5.php] stopping ...
+2018-09-14 18:31:46 pid:2986 Workerman[server.php] stopping ...
+2018-09-14 18:31:46 pid:3047 Workerman[game27.php] stopping ...
+2018-09-14 18:31:46 pid:3047 worker[none:3048] exit with status 4991
+2018-09-14 18:31:46 pid:2991 Workerman[test.php] stopping ...
+2018-09-14 18:31:46 pid:3047 Workerman[game27.php] has been stopped
+2018-09-14 18:31:46 pid:2996 Workerman[game2.php] stopping ...
+2018-09-14 18:31:46 pid:3007 Workerman[game10.php] stopping ...
+2018-09-14 18:31:46 pid:3015 Workerman[game14.php] stopping ...
+2018-09-14 18:31:46 pid:3019 Workerman[game4.php] stopping ...
+2018-09-14 18:31:46 pid:3019 worker[none:3021] exit with status 4991
+2018-09-14 18:31:46 pid:3019 Workerman[game4.php] has been stopped
+2018-09-14 18:31:46 pid:3035 Workerman[game17.php] stopping ...
+2018-09-14 18:31:46 pid:3055 Workerman[game49.php] stopping ...
+2018-09-14 18:31:46 pid:3012 Workerman[game3.php] stopping ...
+2018-09-14 18:31:46 pid:3041 Workerman[game26.php] stopping ...
+2018-09-14 18:31:46 pid:2999 Workerman[game1.php] stopping ...
+2018-09-14 18:31:46 pid:3024 Workerman[game6.php] stopping ...
+2018-09-14 18:31:46 pid:3030 Workerman[game16.php] stopping ...
+2018-09-14 18:31:46 pid:3030 worker[none:3032] exit with status 4991
+2018-09-14 18:31:46 pid:3030 Workerman[game16.php] has been stopped
+2018-09-14 18:33:00 pid:2990 Workerman[./server.php] start in DAEMON mode
+2018-09-14 18:33:00 pid:2996 Workerman[./php54n/test.php] start in DAEMON mode
+2018-09-14 18:33:00 pid:2996 Workerman[./php54n/test.php] already running
+2018-09-14 18:33:00 pid:2998 Workerman[./php54n/game2.php] start in DAEMON mode
+2018-09-14 18:33:00 pid:3001 Workerman[./php54n/game1.php] start in DAEMON mode
+2018-09-14 18:33:00 pid:3005 Workerman[./php54n/game5.php] start in DAEMON mode
+2018-09-14 18:33:01 pid:3009 Workerman[./php54n/game10.php] start in DAEMON mode
+2018-09-14 18:33:01 pid:3012 Workerman[./php54n/game3.php] start in DAEMON mode
+2018-09-14 18:33:01 pid:3016 Workerman[./php54n/game14.php] start in DAEMON mode
+2018-09-14 18:33:01 pid:3020 Workerman[./php54n/game4.php] start in DAEMON mode
+2018-09-14 18:33:01 pid:3029 Workerman[./php54n/game6.php] start in DAEMON mode
+2018-09-14 18:33:01 pid:3029 Workerman[./php54n/game6.php] already running
+2018-09-14 18:33:01 pid:3032 Workerman[./php54n/game16.php] start in DAEMON mode
+2018-09-14 18:33:01 pid:3037 Workerman[./php54n/game17.php] start in DAEMON mode
+2018-09-14 18:33:01 pid:3037 Workerman[./php54n/game17.php] already running
+2018-09-14 18:33:01 pid:3041 Workerman[./php54n/game26.php] start in DAEMON mode
+2018-09-14 18:33:01 pid:3044 Workerman[./php54n/game27.php] start in DAEMON mode
+2018-09-14 18:33:01 pid:3052 Workerman[./php54n/game49.php] start in DAEMON mode
+2018-09-14 18:38:41 pid:3074 Workerman[./server.php] start in DAEMON mode
+2018-09-14 18:38:41 pid:3079 Workerman[./php54n/test.php] start in DAEMON mode
+2018-09-14 18:38:41 pid:3083 Workerman[./php54n/game2.php] start in DAEMON mode
+2018-09-14 18:38:41 pid:3086 Workerman[./php54n/game1.php] start in DAEMON mode
+2018-09-14 18:38:41 pid:3089 Workerman[./php54n/game5.php] start in DAEMON mode
+2018-09-14 18:38:41 pid:3092 Workerman[./php54n/game10.php] start in DAEMON mode
+2018-09-14 18:38:41 pid:3095 Workerman[./php54n/game3.php] start in DAEMON mode
+2018-09-14 18:38:41 pid:3098 Workerman[./php54n/game14.php] start in DAEMON mode
+2018-09-14 18:38:41 pid:3101 Workerman[./php54n/game4.php] start in DAEMON mode
+2018-09-14 18:38:41 pid:3105 Workerman[./php54n/game6.php] start in DAEMON mode
+2018-09-14 18:38:41 pid:3108 Workerman[./php54n/game16.php] start in DAEMON mode
+2018-09-14 18:38:41 pid:3112 Workerman[./php54n/game17.php] start in DAEMON mode
+2018-09-14 18:38:41 pid:3117 Workerman[./php54n/game26.php] start in DAEMON mode
+2018-09-14 18:38:41 pid:3121 Workerman[./php54n/game27.php] start in DAEMON mode
+2018-09-14 18:38:41 pid:3125 Workerman[./php54n/game49.php] start in DAEMON mode
+2018-09-14 22:53:51 pid:2994 Workerman[server.php] stopping ...
+2018-09-14 22:53:51 pid:2994 worker[none:2997] exit with status 4991
+2018-09-14 22:53:51 pid:2994 Workerman[server.php] has been stopped
+2018-09-14 22:53:51 pid:3081 Workerman[test.php] stopping ...
+2018-09-14 22:53:51 pid:3116 Workerman[game17.php] stopping ...
+2018-09-14 22:53:51 pid:3107 Workerman[game6.php] stopping ...
+2018-09-14 22:53:51 pid:3043 Workerman[game26.php] stopping ...
+2018-09-14 22:53:51 pid:3026 Workerman[game4.php] stopping ...
+2018-09-14 22:53:51 pid:3054 Workerman[game49.php] stopping ...
+2018-09-14 22:53:51 pid:3004 Workerman[game1.php] stopping ...
+2018-09-14 22:53:51 pid:3000 Workerman[game2.php] stopping ...
+2018-09-14 22:53:51 pid:3008 Workerman[game5.php] stopping ...
+2018-09-14 22:53:51 pid:3008 worker[none:3010] exit with status 4991
+2018-09-14 22:53:51 pid:3008 Workerman[game5.php] has been stopped
+2018-09-14 22:53:51 pid:3013 Workerman[game10.php] stopping ...
+2018-09-14 22:53:51 pid:3013 worker[none:3014] exit with status 4991
+2018-09-14 22:53:51 pid:3013 Workerman[game10.php] has been stopped
+2018-09-14 22:53:51 pid:3038 Workerman[game16.php] stopping ...
+2018-09-14 22:53:51 pid:3017 Workerman[game3.php] stopping ...
+2018-09-14 22:53:51 pid:3021 Workerman[game14.php] stopping ...
+2018-09-14 22:53:51 pid:3049 Workerman[game27.php] stopping ...
+2018-09-14 22:53:51 pid:3049 worker[none:3051] exit with status 4991
+2018-09-14 22:53:51 pid:3049 Workerman[game27.php] has been stopped
+2018-09-14 22:54:47 pid:2959 Workerman[./server.php] start in DAEMON mode
+2018-09-14 22:54:47 pid:2964 Workerman[./php54n/test.php] start in DAEMON mode
+2018-09-14 22:54:47 pid:2968 Workerman[./php54n/game2.php] start in DAEMON mode
+2018-09-14 22:54:47 pid:2972 Workerman[./php54n/game1.php] start in DAEMON mode
+2018-09-14 22:54:47 pid:2975 Workerman[./php54n/game5.php] start in DAEMON mode
+2018-09-14 22:54:47 pid:2980 Workerman[./php54n/game10.php] start in DAEMON mode
+2018-09-14 22:54:47 pid:2984 Workerman[./php54n/game3.php] start in DAEMON mode
+2018-09-14 22:54:47 pid:2987 Workerman[./php54n/game14.php] start in DAEMON mode
+2018-09-14 22:54:47 pid:2992 Workerman[./php54n/game4.php] start in DAEMON mode
+2018-09-14 22:54:47 pid:2998 Workerman[./php54n/game6.php] start in DAEMON mode
+2018-09-14 22:54:47 pid:3003 Workerman[./php54n/game16.php] start in DAEMON mode
+2018-09-14 22:54:47 pid:3007 Workerman[./php54n/game17.php] start in DAEMON mode
+2018-09-14 22:54:47 pid:3014 Workerman[./php54n/game26.php] start in DAEMON mode
+2018-09-14 22:54:47 pid:3021 Workerman[./php54n/game27.php] start in DAEMON mode
+2018-09-14 22:54:47 pid:3029 Workerman[./php54n/game49.php] start in DAEMON mode
+2018-09-14 22:56:17 pid:3052 Workerman[./server.php] start in DAEMON mode
+2018-09-14 22:56:17 pid:3052 Workerman[./server.php] already running
+2018-10-12 17:49:06 pid:2981 Error: Call to undefined function act_send_lookgame() in /www/wwwroot/n0.exp77.cn/auto/php54n/game5/exitgame.php:43
+Stack trace:
+#0 /www/wwwroot/n0.exp77.cn/auto/php54n/game5.php(115): include()
+#1 /www/wwwroot/n0.exp77.cn/auto/php54n/game5.php(95): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"act":"exitgam...')
+#3 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Connection/TcpConnection.php(311): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"act":"exitgam...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #371303)
+#5 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Events/Select.php(167): call_user_func_array(Array, Array)
+#6 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(1065): Workerman\Events\Select->loop()
+#7 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(542): Workerman\Worker->run()
+#8 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(514): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(79): Workerman\Worker::forkWorkers()
+#10 /www/wwwroot/n0.exp77.cn/auto/php54n/game5.php(97): Workerman\Worker::runAll()
+#11 {main}
+2018-10-12 17:49:06 pid:2981 Worker[2981] process terminated
+2018-10-12 17:49:06 pid:2979 worker[none:2981] exit with status 64000
+2018-10-12 17:49:16 pid:5303 Error: Call to undefined function act_send_lookgame() in /www/wwwroot/n0.exp77.cn/auto/php54n/game5/exitgame.php:43
+Stack trace:
+#0 /www/wwwroot/n0.exp77.cn/auto/php54n/game5.php(115): include()
+#1 /www/wwwroot/n0.exp77.cn/auto/php54n/game5.php(95): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"act":"exitgam...')
+#3 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Connection/TcpConnection.php(311): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"act":"exitgam...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #36)
+#5 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Events/Select.php(167): call_user_func_array(Array, Array)
+#6 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(1065): Workerman\Events\Select->loop()
+#7 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(542): Workerman\Worker->run()
+#8 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(514): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(616): Workerman\Worker::forkWorkers()
+#10 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(81): Workerman\Worker::monitorWorkers()
+#11 /www/wwwroot/n0.exp77.cn/auto/php54n/game5.php(97): Workerman\Worker::runAll()
+#12 {main}
+2018-10-12 17:49:16 pid:5303 Worker[5303] process terminated
+2018-10-12 17:49:16 pid:2979 worker[none:5303] exit with status 64000
+2018-10-12 17:51:56 pid:5304 Error: Call to undefined function act_send_lookgame() in /www/wwwroot/n0.exp77.cn/auto/php54n/game5/exitgame.php:43
+Stack trace:
+#0 /www/wwwroot/n0.exp77.cn/auto/php54n/game5.php(115): include()
+#1 /www/wwwroot/n0.exp77.cn/auto/php54n/game5.php(95): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"act":"exitgam...')
+#3 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Connection/TcpConnection.php(311): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"act":"exitgam...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #132)
+#5 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Events/Select.php(167): call_user_func_array(Array, Array)
+#6 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(1065): Workerman\Events\Select->loop()
+#7 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(542): Workerman\Worker->run()
+#8 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(514): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(616): Workerman\Worker::forkWorkers()
+#10 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(81): Workerman\Worker::monitorWorkers()
+#11 /www/wwwroot/n0.exp77.cn/auto/php54n/game5.php(97): Workerman\Worker::runAll()
+#12 {main}
+2018-10-12 17:51:56 pid:5304 Worker[5304] process terminated
+2018-10-12 17:51:56 pid:2979 worker[none:5304] exit with status 64000
+2018-10-12 17:52:34 pid:5318 Error: Call to undefined function act_send_lookgame() in /www/wwwroot/n0.exp77.cn/auto/php54n/game5/exitgame.php:43
+Stack trace:
+#0 /www/wwwroot/n0.exp77.cn/auto/php54n/game5.php(115): include()
+#1 /www/wwwroot/n0.exp77.cn/auto/php54n/game5.php(95): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"act":"exitgam...')
+#3 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Connection/TcpConnection.php(311): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"act":"exitgam...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #61)
+#5 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Events/Select.php(167): call_user_func_array(Array, Array)
+#6 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(1065): Workerman\Events\Select->loop()
+#7 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(542): Workerman\Worker->run()
+#8 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(514): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(616): Workerman\Worker::forkWorkers()
+#10 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(81): Workerman\Worker::monitorWorkers()
+#11 /www/wwwroot/n0.exp77.cn/auto/php54n/game5.php(97): Workerman\Worker::runAll()
+#12 {main}
+2018-10-12 17:52:34 pid:5318 Worker[5318] process terminated
+2018-10-12 17:52:34 pid:2979 worker[none:5318] exit with status 64000
+2018-10-12 17:52:55 pid:5320 Error: Call to undefined function act_send_lookgame() in /www/wwwroot/n0.exp77.cn/auto/php54n/game5/exitgame.php:43
+Stack trace:
+#0 /www/wwwroot/n0.exp77.cn/auto/php54n/game5.php(115): include()
+#1 /www/wwwroot/n0.exp77.cn/auto/php54n/game5.php(95): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"act":"exitgam...')
+#3 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Connection/TcpConnection.php(311): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"act":"exitgam...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #39)
+#5 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Events/Select.php(167): call_user_func_array(Array, Array)
+#6 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(1065): Workerman\Events\Select->loop()
+#7 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(542): Workerman\Worker->run()
+#8 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(514): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(616): Workerman\Worker::forkWorkers()
+#10 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(81): Workerman\Worker::monitorWorkers()
+#11 /www/wwwroot/n0.exp77.cn/auto/php54n/game5.php(97): Workerman\Worker::runAll()
+#12 {main}
+2018-10-12 17:52:55 pid:5320 Worker[5320] process terminated
+2018-10-12 17:52:55 pid:2979 worker[none:5320] exit with status 64000
+2018-10-12 17:52:59 pid:5325 Error: Call to undefined function act_send_lookgame() in /www/wwwroot/n0.exp77.cn/auto/php54n/game5/exitgame.php:43
+Stack trace:
+#0 /www/wwwroot/n0.exp77.cn/auto/php54n/game5.php(115): include()
+#1 /www/wwwroot/n0.exp77.cn/auto/php54n/game5.php(95): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"act":"exitgam...')
+#3 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Connection/TcpConnection.php(311): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"act":"exitgam...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #40)
+#5 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Events/Select.php(167): call_user_func_array(Array, Array)
+#6 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(1065): Workerman\Events\Select->loop()
+#7 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(542): Workerman\Worker->run()
+#8 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(514): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(616): Workerman\Worker::forkWorkers()
+#10 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(81): Workerman\Worker::monitorWorkers()
+#11 /www/wwwroot/n0.exp77.cn/auto/php54n/game5.php(97): Workerman\Worker::runAll()
+#12 {main}
+2018-10-12 17:52:59 pid:5325 Worker[5325] process terminated
+2018-10-12 17:52:59 pid:2979 worker[none:5325] exit with status 64000
+2018-10-12 17:53:19 pid:5326 Error: Call to undefined function act_send_lookgame() in /www/wwwroot/n0.exp77.cn/auto/php54n/game5/exitgame.php:43
+Stack trace:
+#0 /www/wwwroot/n0.exp77.cn/auto/php54n/game5.php(115): include()
+#1 /www/wwwroot/n0.exp77.cn/auto/php54n/game5.php(95): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"act":"exitgam...')
+#3 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Connection/TcpConnection.php(311): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"act":"exitgam...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #80)
+#5 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Events/Select.php(167): call_user_func_array(Array, Array)
+#6 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(1065): Workerman\Events\Select->loop()
+#7 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(542): Workerman\Worker->run()
+#8 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(514): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(616): Workerman\Worker::forkWorkers()
+#10 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(81): Workerman\Worker::monitorWorkers()
+#11 /www/wwwroot/n0.exp77.cn/auto/php54n/game5.php(97): Workerman\Worker::runAll()
+#12 {main}
+2018-10-12 17:53:19 pid:5326 Worker[5326] process terminated
+2018-10-12 17:53:19 pid:2979 worker[none:5326] exit with status 64000
+2018-10-12 17:53:36 pid:5327 Error: Call to undefined function act_send_lookgame() in /www/wwwroot/n0.exp77.cn/auto/php54n/game5/exitgame.php:43
+Stack trace:
+#0 /www/wwwroot/n0.exp77.cn/auto/php54n/game5.php(115): include()
+#1 /www/wwwroot/n0.exp77.cn/auto/php54n/game5.php(95): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"act":"exitgam...')
+#3 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Connection/TcpConnection.php(311): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"act":"exitgam...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #42)
+#5 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Events/Select.php(167): call_user_func_array(Array, Array)
+#6 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(1065): Workerman\Events\Select->loop()
+#7 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(542): Workerman\Worker->run()
+#8 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(514): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(616): Workerman\Worker::forkWorkers()
+#10 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(81): Workerman\Worker::monitorWorkers()
+#11 /www/wwwroot/n0.exp77.cn/auto/php54n/game5.php(97): Workerman\Worker::runAll()
+#12 {main}
+2018-10-12 17:53:36 pid:5327 Worker[5327] process terminated
+2018-10-12 17:53:36 pid:2979 worker[none:5327] exit with status 64000
+2018-10-12 17:56:35 pid:5328 Error: Call to undefined function act_send_lookgame() in /www/wwwroot/n0.exp77.cn/auto/php54n/game5/exitgame.php:43
+Stack trace:
+#0 /www/wwwroot/n0.exp77.cn/auto/php54n/game5.php(115): include()
+#1 /www/wwwroot/n0.exp77.cn/auto/php54n/game5.php(95): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"act":"exitgam...')
+#3 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Connection/TcpConnection.php(311): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"act":"exitgam...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #226)
+#5 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Events/Select.php(167): call_user_func_array(Array, Array)
+#6 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(1065): Workerman\Events\Select->loop()
+#7 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(542): Workerman\Worker->run()
+#8 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(514): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(616): Workerman\Worker::forkWorkers()
+#10 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(81): Workerman\Worker::monitorWorkers()
+#11 /www/wwwroot/n0.exp77.cn/auto/php54n/game5.php(97): Workerman\Worker::runAll()
+#12 {main}
+2018-10-12 17:56:35 pid:5328 Worker[5328] process terminated
+2018-10-12 17:56:35 pid:2979 worker[none:5328] exit with status 64000
+2018-10-12 17:56:41 pid:5336 Error: Call to undefined function act_send_lookgame() in /www/wwwroot/n0.exp77.cn/auto/php54n/game5/exitgame.php:43
+Stack trace:
+#0 /www/wwwroot/n0.exp77.cn/auto/php54n/game5.php(115): include()
+#1 /www/wwwroot/n0.exp77.cn/auto/php54n/game5.php(95): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"act":"exitgam...')
+#3 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Connection/TcpConnection.php(311): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"act":"exitgam...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #44)
+#5 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Events/Select.php(167): call_user_func_array(Array, Array)
+#6 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(1065): Workerman\Events\Select->loop()
+#7 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(542): Workerman\Worker->run()
+#8 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(514): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(616): Workerman\Worker::forkWorkers()
+#10 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(81): Workerman\Worker::monitorWorkers()
+#11 /www/wwwroot/n0.exp77.cn/auto/php54n/game5.php(97): Workerman\Worker::runAll()
+#12 {main}
+2018-10-12 17:56:41 pid:5336 Worker[5336] process terminated
+2018-10-12 17:56:41 pid:2979 worker[none:5336] exit with status 64000
+2018-10-12 17:56:51 pid:5337 Error: Call to undefined function act_send_lookgame() in /www/wwwroot/n0.exp77.cn/auto/php54n/game5/exitgame.php:43
+Stack trace:
+#0 /www/wwwroot/n0.exp77.cn/auto/php54n/game5.php(115): include()
+#1 /www/wwwroot/n0.exp77.cn/auto/php54n/game5.php(95): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"act":"exitgam...')
+#3 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Connection/TcpConnection.php(311): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"act":"exitgam...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #45)
+#5 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Events/Select.php(167): call_user_func_array(Array, Array)
+#6 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(1065): Workerman\Events\Select->loop()
+#7 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(542): Workerman\Worker->run()
+#8 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(514): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(616): Workerman\Worker::forkWorkers()
+#10 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(81): Workerman\Worker::monitorWorkers()
+#11 /www/wwwroot/n0.exp77.cn/auto/php54n/game5.php(97): Workerman\Worker::runAll()
+#12 {main}
+2018-10-12 17:56:51 pid:5337 Worker[5337] process terminated
+2018-10-12 17:56:51 pid:2979 worker[none:5337] exit with status 64000
+2018-10-12 17:56:56 pid:5338 Error: Call to undefined function act_send_lookgame() in /www/wwwroot/n0.exp77.cn/auto/php54n/game5/exitgame.php:43
+Stack trace:
+#0 /www/wwwroot/n0.exp77.cn/auto/php54n/game5.php(115): include()
+#1 /www/wwwroot/n0.exp77.cn/auto/php54n/game5.php(95): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"act":"exitgam...')
+#3 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Connection/TcpConnection.php(311): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"act":"exitgam...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #46)
+#5 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Events/Select.php(167): call_user_func_array(Array, Array)
+#6 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(1065): Workerman\Events\Select->loop()
+#7 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(542): Workerman\Worker->run()
+#8 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(514): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(616): Workerman\Worker::forkWorkers()
+#10 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(81): Workerman\Worker::monitorWorkers()
+#11 /www/wwwroot/n0.exp77.cn/auto/php54n/game5.php(97): Workerman\Worker::runAll()
+#12 {main}
+2018-10-12 17:56:56 pid:5338 Worker[5338] process terminated
+2018-10-12 17:56:56 pid:2979 worker[none:5338] exit with status 64000
+2018-10-12 17:59:47 pid:5339 Error: Call to undefined function act_send_lookgame() in /www/wwwroot/n0.exp77.cn/auto/php54n/game5/exitgame.php:43
+Stack trace:
+#0 /www/wwwroot/n0.exp77.cn/auto/php54n/game5.php(115): include()
+#1 /www/wwwroot/n0.exp77.cn/auto/php54n/game5.php(95): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"act":"exitgam...')
+#3 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Connection/TcpConnection.php(311): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"act":"exitgam...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #239)
+#5 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Events/Select.php(167): call_user_func_array(Array, Array)
+#6 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(1065): Workerman\Events\Select->loop()
+#7 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(542): Workerman\Worker->run()
+#8 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(514): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(616): Workerman\Worker::forkWorkers()
+#10 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(81): Workerman\Worker::monitorWorkers()
+#11 /www/wwwroot/n0.exp77.cn/auto/php54n/game5.php(97): Workerman\Worker::runAll()
+#12 {main}
+2018-10-12 17:59:47 pid:5339 Worker[5339] process terminated
+2018-10-12 17:59:47 pid:2979 worker[none:5339] exit with status 64000
+2018-10-12 18:00:48 pid:5346 Error: Call to undefined function act_send_lookgame() in /www/wwwroot/n0.exp77.cn/auto/php54n/game5/exitgame.php:43
+Stack trace:
+#0 /www/wwwroot/n0.exp77.cn/auto/php54n/game5.php(115): include()
+#1 /www/wwwroot/n0.exp77.cn/auto/php54n/game5.php(95): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"act":"exitgam...')
+#3 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Connection/TcpConnection.php(311): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"act":"exitgam...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #83)
+#5 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Events/Select.php(167): call_user_func_array(Array, Array)
+#6 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(1065): Workerman\Events\Select->loop()
+#7 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(542): Workerman\Worker->run()
+#8 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(514): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(616): Workerman\Worker::forkWorkers()
+#10 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(81): Workerman\Worker::monitorWorkers()
+#11 /www/wwwroot/n0.exp77.cn/auto/php54n/game5.php(97): Workerman\Worker::runAll()
+#12 {main}
+2018-10-12 18:00:48 pid:5346 Worker[5346] process terminated
+2018-10-12 18:00:48 pid:2979 worker[none:5346] exit with status 64000
+2018-10-12 18:00:56 pid:5354 Error: Call to undefined function act_send_lookgame() in /www/wwwroot/n0.exp77.cn/auto/php54n/game5/exitgame.php:43
+Stack trace:
+#0 /www/wwwroot/n0.exp77.cn/auto/php54n/game5.php(115): include()
+#1 /www/wwwroot/n0.exp77.cn/auto/php54n/game5.php(95): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"act":"exitgam...')
+#3 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Connection/TcpConnection.php(311): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"act":"exitgam...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #49)
+#5 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Events/Select.php(167): call_user_func_array(Array, Array)
+#6 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(1065): Workerman\Events\Select->loop()
+#7 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(542): Workerman\Worker->run()
+#8 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(514): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(616): Workerman\Worker::forkWorkers()
+#10 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(81): Workerman\Worker::monitorWorkers()
+#11 /www/wwwroot/n0.exp77.cn/auto/php54n/game5.php(97): Workerman\Worker::runAll()
+#12 {main}
+2018-10-12 18:00:56 pid:5354 Worker[5354] process terminated
+2018-10-12 18:00:56 pid:2979 worker[none:5354] exit with status 64000
+2018-10-12 20:07:46 pid:5355 Error: Call to undefined function act_send_lookgame() in /www/wwwroot/n0.exp77.cn/auto/php54n/game5/exitgame.php:43
+Stack trace:
+#0 /www/wwwroot/n0.exp77.cn/auto/php54n/game5.php(115): include()
+#1 /www/wwwroot/n0.exp77.cn/auto/php54n/game5.php(95): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"act":"exitgam...')
+#3 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Connection/TcpConnection.php(311): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"act":"exitgam...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #1174)
+#5 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Events/Select.php(167): call_user_func_array(Array, Array)
+#6 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(1065): Workerman\Events\Select->loop()
+#7 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(542): Workerman\Worker->run()
+#8 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(514): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(616): Workerman\Worker::forkWorkers()
+#10 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(81): Workerman\Worker::monitorWorkers()
+#11 /www/wwwroot/n0.exp77.cn/auto/php54n/game5.php(97): Workerman\Worker::runAll()
+#12 {main}
+2018-10-12 20:07:46 pid:5355 Worker[5355] process terminated
+2018-10-12 20:07:46 pid:2979 worker[none:5355] exit with status 64000
+2018-10-12 20:07:51 pid:5715 Error: Call to undefined function act_send_lookgame() in /www/wwwroot/n0.exp77.cn/auto/php54n/game5/exitgame.php:43
+Stack trace:
+#0 /www/wwwroot/n0.exp77.cn/auto/php54n/game5.php(115): include()
+#1 /www/wwwroot/n0.exp77.cn/auto/php54n/game5.php(95): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"act":"exitgam...')
+#3 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Connection/TcpConnection.php(311): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"act":"exitgam...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #51)
+#5 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Events/Select.php(167): call_user_func_array(Array, Array)
+#6 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(1065): Workerman\Events\Select->loop()
+#7 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(542): Workerman\Worker->run()
+#8 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(514): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(616): Workerman\Worker::forkWorkers()
+#10 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(81): Workerman\Worker::monitorWorkers()
+#11 /www/wwwroot/n0.exp77.cn/auto/php54n/game5.php(97): Workerman\Worker::runAll()
+#12 {main}
+2018-10-12 20:07:51 pid:5715 Worker[5715] process terminated
+2018-10-12 20:07:51 pid:2979 worker[none:5715] exit with status 64000
+2018-10-12 20:08:00 pid:5716 Error: Call to undefined function act_send_lookgame() in /www/wwwroot/n0.exp77.cn/auto/php54n/game5/exitgame.php:43
+Stack trace:
+#0 /www/wwwroot/n0.exp77.cn/auto/php54n/game5.php(115): include()
+#1 /www/wwwroot/n0.exp77.cn/auto/php54n/game5.php(95): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"act":"exitgam...')
+#3 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Connection/TcpConnection.php(311): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"act":"exitgam...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #70)
+#5 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Events/Select.php(167): call_user_func_array(Array, Array)
+#6 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(1065): Workerman\Events\Select->loop()
+#7 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(542): Workerman\Worker->run()
+#8 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(514): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(616): Workerman\Worker::forkWorkers()
+#10 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(81): Workerman\Worker::monitorWorkers()
+#11 /www/wwwroot/n0.exp77.cn/auto/php54n/game5.php(97): Workerman\Worker::runAll()
+#12 {main}
+2018-10-12 20:08:00 pid:5716 Worker[5716] process terminated
+2018-10-12 20:08:00 pid:2979 worker[none:5716] exit with status 64000
+2018-10-12 20:08:38 pid:5717 Error: Call to undefined function act_send_lookgame() in /www/wwwroot/n0.exp77.cn/auto/php54n/game5/exitgame.php:43
+Stack trace:
+#0 /www/wwwroot/n0.exp77.cn/auto/php54n/game5.php(115): include()
+#1 /www/wwwroot/n0.exp77.cn/auto/php54n/game5.php(95): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"act":"exitgam...')
+#3 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Connection/TcpConnection.php(311): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"act":"exitgam...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #71)
+#5 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Events/Select.php(167): call_user_func_array(Array, Array)
+#6 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(1065): Workerman\Events\Select->loop()
+#7 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(542): Workerman\Worker->run()
+#8 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(514): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(616): Workerman\Worker::forkWorkers()
+#10 /www/wwwroot/n0.exp77.cn/auto/php54n/workerman/Worker.php(81): Workerman\Worker::monitorWorkers()
+#11 /www/wwwroot/n0.exp77.cn/auto/php54n/game5.php(97): Workerman\Worker::runAll()
+#12 {main}
+2018-10-12 20:08:38 pid:5717 Worker[5717] process terminated
+2018-10-12 20:08:38 pid:2979 worker[none:5717] exit with status 64000
+2018-10-19 06:05:12 pid:2962 Workerman[server.php] stopping ...
+2018-10-19 06:05:12 pid:2967 Workerman[test.php] stopping ...
+2018-10-19 06:05:12 pid:2976 Workerman[game1.php] stopping ...
+2018-10-19 06:05:12 pid:3015 Workerman[game17.php] stopping ...
+2018-10-19 06:05:12 pid:3033 Workerman[game49.php] stopping ...
+2018-10-19 06:05:12 pid:2971 Workerman[game2.php] stopping ...
+2018-10-19 06:05:12 pid:2979 Workerman[game5.php] stopping ...
+2018-10-19 06:05:12 pid:2983 Workerman[game10.php] stopping ...
+2018-10-19 06:05:12 pid:2988 Workerman[game3.php] stopping ...
+2018-10-19 06:05:12 pid:2988 worker[none:2989] exit with status 4991
+2018-10-19 06:05:12 pid:2988 Workerman[game3.php] has been stopped
+2018-10-19 06:05:12 pid:2991 Workerman[game14.php] stopping ...
+2018-10-19 06:05:12 pid:2991 worker[none:2993] exit with status 4991
+2018-10-19 06:05:12 pid:2991 Workerman[game14.php] has been stopped
+2018-10-19 06:05:12 pid:2995 Workerman[game4.php] stopping ...
+2018-10-19 06:05:12 pid:2995 worker[none:2997] exit with status 4991
+2018-10-19 06:05:12 pid:2995 Workerman[game4.php] has been stopped
+2018-10-19 06:05:12 pid:3002 Workerman[game6.php] stopping ...
+2018-10-19 06:05:12 pid:3002 worker[none:3004] exit with status 4991
+2018-10-19 06:05:12 pid:3002 Workerman[game6.php] has been stopped
+2018-10-19 06:05:12 pid:3006 Workerman[game16.php] stopping ...
+2018-10-19 06:05:12 pid:3024 Workerman[game27.php] stopping ...
+2018-10-19 06:05:12 pid:3020 Workerman[game26.php] stopping ...
+2018-10-19 12:13:20 pid:3074 Workerman[./server.php] start in DAEMON mode
+2018-10-19 12:13:20 pid:3078 Workerman[./php54n/test.php] start in DAEMON mode
+2018-10-19 12:13:20 pid:3082 Workerman[./php54n/game2.php] start in DAEMON mode
+2018-10-19 12:13:20 pid:3086 Workerman[./php54n/game1.php] start in DAEMON mode
+2018-10-19 12:13:20 pid:3090 Workerman[./php54n/game5.php] start in DAEMON mode
+2018-10-19 12:13:20 pid:3094 Workerman[./php54n/game10.php] start in DAEMON mode
+2018-10-19 12:13:20 pid:3098 Workerman[./php54n/game3.php] start in DAEMON mode
+2018-10-19 12:13:20 pid:3102 Workerman[./php54n/game14.php] start in DAEMON mode
+2018-10-19 12:13:20 pid:3106 Workerman[./php54n/game4.php] start in DAEMON mode
+2018-10-19 12:13:20 pid:3112 Workerman[./php54n/game6.php] start in DAEMON mode
+2018-10-19 12:13:20 pid:3120 Workerman[./php54n/game16.php] start in DAEMON mode
+2018-10-19 12:13:20 pid:3124 Workerman[./php54n/game17.php] start in DAEMON mode
+2018-10-19 12:13:20 pid:3130 Workerman[./php54n/game26.php] start in DAEMON mode
+2018-10-19 12:13:20 pid:3135 Workerman[./php54n/game27.php] start in DAEMON mode
+2018-10-19 12:13:20 pid:3144 Workerman[./php54n/game49.php] start in DAEMON mode
+2018-10-21 03:52:16 pid:3081 Workerman[test.php] stopping ...
+2018-10-21 03:52:16 pid:3076 Workerman[server.php] stopping ...
+2018-10-21 03:52:16 pid:3085 Workerman[game2.php] stopping ...
+2018-10-21 03:52:16 pid:3097 Workerman[game10.php] stopping ...
+2018-10-21 03:52:16 pid:3097 worker[none:3099] exit with status 4991
+2018-10-21 03:52:16 pid:3097 Workerman[game10.php] has been stopped
+2018-10-21 03:52:16 pid:3105 Workerman[game14.php] stopping ...
+2018-10-21 03:52:16 pid:3110 Workerman[game4.php] stopping ...
+2018-10-21 03:52:16 pid:3117 Workerman[game6.php] stopping ...
+2018-10-21 03:52:16 pid:3117 worker[none:3121] exit with status 4991
+2018-10-21 03:52:16 pid:3117 Workerman[game6.php] has been stopped
+2018-10-21 03:52:16 pid:3129 Workerman[game17.php] stopping ...
+2018-10-21 03:52:16 pid:3129 worker[none:3131] exit with status 4991
+2018-10-21 03:52:16 pid:3129 Workerman[game17.php] has been stopped
+2018-10-21 03:52:16 pid:3136 Workerman[game26.php] stopping ...
+2018-10-21 03:52:16 pid:3141 Workerman[game27.php] stopping ...
+2018-10-21 03:52:16 pid:3141 worker[none:3143] exit with status 4991
+2018-10-21 03:52:16 pid:3141 Workerman[game27.php] has been stopped
+2018-10-21 03:52:16 pid:3093 Workerman[game5.php] stopping ...
+2018-10-21 03:52:16 pid:3101 Workerman[game3.php] stopping ...
+2018-10-21 03:52:16 pid:3148 Workerman[game49.php] stopping ...
+2018-10-21 03:52:16 pid:3089 Workerman[game1.php] stopping ...
+2018-10-21 03:52:16 pid:3123 Workerman[game16.php] stopping ...
+2018-10-21 03:53:17 pid:2987 Workerman[./server.php] start in DAEMON mode
+2018-10-21 03:53:17 pid:2993 Workerman[./php54n/test.php] start in DAEMON mode
+2018-10-21 03:53:17 pid:2996 Workerman[./php54n/game2.php] start in DAEMON mode
+2018-10-21 03:53:17 pid:3001 Workerman[./php54n/game1.php] start in DAEMON mode
+2018-10-21 03:53:17 pid:3005 Workerman[./php54n/game5.php] start in DAEMON mode
+2018-10-21 03:53:17 pid:3009 Workerman[./php54n/game10.php] start in DAEMON mode
+2018-10-21 03:53:17 pid:3012 Workerman[./php54n/game3.php] start in DAEMON mode
+2018-10-21 03:53:17 pid:3017 Workerman[./php54n/game14.php] start in DAEMON mode
+2018-10-21 03:53:17 pid:3021 Workerman[./php54n/game4.php] start in DAEMON mode
+2018-10-21 03:53:17 pid:3027 Workerman[./php54n/game6.php] start in DAEMON mode
+2018-10-21 03:53:17 pid:3033 Workerman[./php54n/game16.php] start in DAEMON mode
+2018-10-21 03:53:17 pid:3040 Workerman[./php54n/game17.php] start in DAEMON mode
+2018-10-21 03:53:17 pid:3046 Workerman[./php54n/game26.php] start in DAEMON mode
+2018-10-21 03:53:17 pid:3051 Workerman[./php54n/game27.php] start in DAEMON mode
+2018-10-21 03:53:17 pid:3060 Workerman[./php54n/game49.php] start in DAEMON mode
+2018-10-21 03:55:31 pid:3231 Workerman[./server.php] start in DAEMON mode
+2018-10-21 03:55:31 pid:3231 Workerman[./server.php] already running
+2018-10-21 03:55:31 pid:3234 Workerman[./php54n/test.php] start in DAEMON mode
+2018-10-21 03:55:31 pid:3234 Workerman[./php54n/test.php] already running
+2018-10-21 03:55:31 pid:3235 Workerman[./php54n/game2.php] start in DAEMON mode
+2018-10-21 03:55:31 pid:3235 Workerman[./php54n/game2.php] already running
+2018-10-21 03:55:31 pid:3236 Workerman[./php54n/game1.php] start in DAEMON mode
+2018-10-21 03:55:31 pid:3236 Workerman[./php54n/game1.php] already running
+2018-10-21 03:55:31 pid:3237 Workerman[./php54n/game5.php] start in DAEMON mode
+2018-10-21 03:55:31 pid:3237 Workerman[./php54n/game5.php] already running
+2018-10-21 03:55:31 pid:3238 Workerman[./php54n/game10.php] start in DAEMON mode
+2018-10-21 03:55:31 pid:3238 Workerman[./php54n/game10.php] already running
+2018-10-21 03:55:31 pid:3239 Workerman[./php54n/game3.php] start in DAEMON mode
+2018-10-21 03:55:31 pid:3239 Workerman[./php54n/game3.php] already running
+2018-10-21 03:55:31 pid:3240 Workerman[./php54n/game14.php] start in DAEMON mode
+2018-10-21 03:55:31 pid:3240 Workerman[./php54n/game14.php] already running
+2018-10-21 03:55:31 pid:3241 Workerman[./php54n/game4.php] start in DAEMON mode
+2018-10-21 03:55:31 pid:3241 Workerman[./php54n/game4.php] already running
+2018-10-21 03:55:31 pid:3243 Workerman[./php54n/game6.php] start in DAEMON mode
+2018-10-21 03:55:31 pid:3243 Workerman[./php54n/game6.php] already running
+2018-10-21 03:55:31 pid:3244 Workerman[./php54n/game16.php] start in DAEMON mode
+2018-10-21 03:55:31 pid:3244 Workerman[./php54n/game16.php] already running
+2018-10-21 03:55:31 pid:3245 Workerman[./php54n/game17.php] start in DAEMON mode
+2018-10-21 03:55:31 pid:3245 Workerman[./php54n/game17.php] already running
+2018-10-21 03:55:31 pid:3246 Workerman[./php54n/game26.php] start in DAEMON mode
+2018-10-21 03:55:31 pid:3246 Workerman[./php54n/game26.php] already running
+2018-10-21 03:55:31 pid:3247 Workerman[./php54n/game27.php] start in DAEMON mode
+2018-10-21 03:55:31 pid:3247 Workerman[./php54n/game27.php] already running
+2018-10-21 03:55:32 pid:3249 Workerman[./php54n/game49.php] start in DAEMON mode
+2018-10-21 03:55:32 pid:3249 Workerman[./php54n/game49.php] already running
+2018-10-26 16:13:20 pid:4974 Workerman[server.php] start in DAEMON mode
+2018-10-26 16:13:26 pid:4979 Workerman[./php54n/test.php] start in DAEMON mode
+2018-10-26 16:13:26 pid:4982 Workerman[./php54n/game2.php] start in DAEMON mode
+2018-10-26 16:13:26 pid:4985 Workerman[./php54n/game1.php] start in DAEMON mode
+2018-10-26 16:13:26 pid:4988 Workerman[./php54n/game5.php] start in DAEMON mode
+2018-10-26 16:13:26 pid:4991 Workerman[./php54n/game10.php] start in DAEMON mode
+2018-10-26 16:13:26 pid:4994 Workerman[./php54n/game3.php] start in DAEMON mode
+2018-10-26 16:13:26 pid:4997 Workerman[./php54n/game14.php] start in DAEMON mode
+2018-10-26 16:13:26 pid:5000 Workerman[./php54n/game4.php] start in DAEMON mode
+2018-10-26 16:13:26 pid:5004 Workerman[./php54n/game6.php] start in DAEMON mode
+2018-10-26 16:13:26 pid:5007 Workerman[./php54n/game16.php] start in DAEMON mode
+2018-10-26 16:13:26 pid:5010 Workerman[./php54n/game17.php] start in DAEMON mode
+2018-10-26 16:13:26 pid:5013 Workerman[./php54n/game26.php] start in DAEMON mode
+2018-10-26 16:13:26 pid:5016 Workerman[./php54n/game27.php] start in DAEMON mode
+2018-10-26 16:13:26 pid:5020 Workerman[./php54n/game49.php] start in DAEMON mode
+2018-10-26 16:13:48 pid:4400 Workerman[server.php] stopping ...
+2018-10-26 16:13:48 pid:4421 Workerman[game10.php] stopping ...
+2018-10-26 16:13:48 pid:4405 Workerman[test.php] stopping ...
+2018-10-26 16:13:48 pid:4409 Workerman[game2.php] stopping ...
+2018-10-26 16:13:48 pid:4425 Workerman[game3.php] stopping ...
+2018-10-26 16:13:48 pid:4417 Workerman[game5.php] stopping ...
+2018-10-26 16:13:48 pid:4413 Workerman[game1.php] stopping ...
+2018-10-26 16:13:48 pid:4429 Workerman[game14.php] stopping ...
+2018-10-26 16:13:48 pid:4442 Workerman[game16.php] stopping ...
+2018-10-26 16:13:48 pid:4433 Workerman[game4.php] stopping ...
+2018-10-26 16:13:48 pid:4438 Workerman[game6.php] stopping ...
+2018-10-26 16:13:48 pid:4446 Workerman[game17.php] stopping ...
+2018-10-26 16:13:48 pid:4454 Workerman[game27.php] stopping ...
+2018-10-26 16:13:48 pid:4450 Workerman[game26.php] stopping ...
+2018-10-26 16:13:48 pid:4459 Workerman[game49.php] stopping ...
+2018-10-26 16:13:48 pid:4976 Workerman[server.php] stopping ...
+2018-10-26 16:29:21 pid:11661 Workerman[server.php] start in DAEMON mode
+2018-10-26 16:29:26 pid:11666 Workerman[./php54n/test.php] start in DAEMON mode
+2018-10-26 16:29:26 pid:11670 Workerman[./php54n/game2.php] start in DAEMON mode
+2018-10-26 16:29:26 pid:11674 Workerman[./php54n/game1.php] start in DAEMON mode
+2018-10-26 16:29:26 pid:11679 Workerman[./php54n/game5.php] start in DAEMON mode
+2018-10-26 16:29:26 pid:11684 Workerman[./php54n/game10.php] start in DAEMON mode
+2018-10-26 16:29:26 pid:11689 Workerman[./php54n/game3.php] start in DAEMON mode
+2018-10-26 16:29:26 pid:11695 Workerman[./php54n/game14.php] start in DAEMON mode
+2018-10-26 16:29:26 pid:11700 Workerman[./php54n/game4.php] start in DAEMON mode
+2018-10-26 16:29:26 pid:11706 Workerman[./php54n/game6.php] start in DAEMON mode
+2018-10-26 16:29:26 pid:11711 Workerman[./php54n/game16.php] start in DAEMON mode
+2018-10-26 16:29:26 pid:11715 Workerman[./php54n/game17.php] start in DAEMON mode
+2018-10-26 16:29:26 pid:11720 Workerman[./php54n/game26.php] start in DAEMON mode
+2018-10-26 16:29:26 pid:11726 Workerman[./php54n/game27.php] start in DAEMON mode
+2018-10-26 16:29:26 pid:11732 Workerman[./php54n/game49.php] start in DAEMON mode
+2018-10-27 15:36:48 pid:9368 Workerman[server.php] start in DAEMON mode
+2018-10-27 15:36:53 pid:9375 Workerman[./php54n/test.php] start in DAEMON mode
+2018-10-27 15:36:53 pid:9379 Workerman[./php54n/game2.php] start in DAEMON mode
+2018-10-27 15:36:53 pid:9383 Workerman[./php54n/game1.php] start in DAEMON mode
+2018-10-27 15:36:53 pid:9386 Workerman[./php54n/game5.php] start in DAEMON mode
+2018-10-27 15:36:53 pid:9391 Workerman[./php54n/game10.php] start in DAEMON mode
+2018-10-27 15:36:53 pid:9395 Workerman[./php54n/game3.php] start in DAEMON mode
+2018-10-27 15:36:53 pid:9399 Workerman[./php54n/game14.php] start in DAEMON mode
+2018-10-27 15:36:53 pid:9403 Workerman[./php54n/game4.php] start in DAEMON mode
+2018-10-27 15:36:53 pid:9408 Workerman[./php54n/game6.php] start in DAEMON mode
+2018-10-27 15:36:53 pid:9411 Workerman[./php54n/game16.php] start in DAEMON mode
+2018-10-27 15:36:53 pid:9416 Workerman[./php54n/game17.php] start in DAEMON mode
+2018-10-27 15:36:54 pid:9420 Workerman[./php54n/game26.php] start in DAEMON mode
+2018-10-27 15:36:54 pid:9424 Workerman[./php54n/game27.php] start in DAEMON mode
+2018-10-27 15:36:54 pid:9429 Workerman[./php54n/game49.php] start in DAEMON mode
+2018-11-01 19:24:32 pid:9426 Workerman[game27.php] stopping ...
+2018-11-01 19:24:32 pid:9422 Workerman[game26.php] stopping ...
+2018-11-01 19:24:32 pid:9377 Workerman[test.php] stopping ...
+2018-11-01 19:24:32 pid:9377 worker[none:9378] exit with status 4991
+2018-11-01 19:24:32 pid:9377 Workerman[test.php] has been stopped
+2018-11-01 19:24:32 pid:9401 Workerman[game14.php] stopping ...
+2018-11-01 19:24:32 pid:9405 Workerman[game4.php] stopping ...
+2018-11-01 19:24:32 pid:9389 Workerman[game5.php] stopping ...
+2018-11-01 19:24:32 pid:9393 Workerman[game10.php] stopping ...
+2018-11-01 19:24:32 pid:9370 Workerman[server.php] stopping ...
+2018-11-01 19:24:32 pid:9410 Workerman[game6.php] stopping ...
+2018-11-01 19:24:32 pid:9410 worker[none:9412] exit with status 4991
+2018-11-01 19:24:32 pid:9410 Workerman[game6.php] has been stopped
+2018-11-01 19:24:32 pid:9414 Workerman[game16.php] stopping ...
+2018-11-01 19:24:32 pid:9381 Workerman[game2.php] stopping ...
+2018-11-01 19:24:32 pid:9381 worker[none:9382] exit with status 4991
+2018-11-01 19:24:32 pid:9381 Workerman[game2.php] has been stopped
+2018-11-01 19:24:32 pid:9385 Workerman[game1.php] stopping ...
+2018-11-01 19:24:32 pid:9397 Workerman[game3.php] stopping ...
+2018-11-01 19:24:32 pid:9431 Workerman[game49.php] stopping ...
+2018-11-01 19:24:32 pid:9418 Workerman[game17.php] stopping ...
+2018-11-01 19:26:01 pid:3453 Workerman[server.php] start in DAEMON mode
+2018-11-01 19:26:03 pid:3461 Workerman[./php54n/test.php] start in DAEMON mode
+2018-11-01 19:26:03 pid:3465 Workerman[./php54n/game2.php] start in DAEMON mode
+2018-11-01 19:26:03 pid:3470 Workerman[./php54n/game1.php] start in DAEMON mode
+2018-11-01 19:26:03 pid:3475 Workerman[./php54n/game5.php] start in DAEMON mode
+2018-11-01 19:26:03 pid:3480 Workerman[./php54n/game10.php] start in DAEMON mode
+2018-11-01 19:26:03 pid:3485 Workerman[./php54n/game3.php] start in DAEMON mode
+2018-11-01 19:26:03 pid:3490 Workerman[./php54n/game14.php] start in DAEMON mode
+2018-11-01 19:26:03 pid:3495 Workerman[./php54n/game4.php] start in DAEMON mode
+2018-11-01 19:26:03 pid:3499 Workerman[./php54n/game6.php] start in DAEMON mode
+2018-11-01 19:26:03 pid:3505 Workerman[./php54n/game16.php] start in DAEMON mode
+2018-11-01 19:26:03 pid:3510 Workerman[./php54n/game17.php] start in DAEMON mode
+2018-11-01 19:26:03 pid:3515 Workerman[./php54n/game26.php] start in DAEMON mode
+2018-11-01 19:26:03 pid:3520 Workerman[./php54n/game27.php] start in DAEMON mode
+2018-11-04 12:31:37 pid:18659 Workerman[server.php] start in DAEMON mode
+2018-11-04 12:31:37 pid:18659 Workerman[server.php] already running
+2018-11-04 12:31:39 pid:18663 Workerman[./php54n/test.php] start in DAEMON mode
+2018-11-04 12:31:39 pid:18663 Workerman[./php54n/test.php] already running
+2018-11-04 12:31:39 pid:18664 Workerman[./php54n/game2.php] start in DAEMON mode
+2018-11-04 12:31:39 pid:18664 Workerman[./php54n/game2.php] already running
+2018-11-04 12:31:39 pid:18665 Workerman[./php54n/game1.php] start in DAEMON mode
+2018-11-04 12:31:39 pid:18665 Workerman[./php54n/game1.php] already running
+2018-11-04 12:31:39 pid:18666 Workerman[./php54n/game5.php] start in DAEMON mode
+2018-11-04 12:31:39 pid:18666 Workerman[./php54n/game5.php] already running
+2018-11-04 12:31:39 pid:18667 Workerman[./php54n/game10.php] start in DAEMON mode
+2018-11-04 12:31:39 pid:18667 Workerman[./php54n/game10.php] already running
+2018-11-04 12:31:39 pid:18668 Workerman[./php54n/game3.php] start in DAEMON mode
+2018-11-04 12:31:39 pid:18668 Workerman[./php54n/game3.php] already running
+2018-11-04 12:31:39 pid:18669 Workerman[./php54n/game14.php] start in DAEMON mode
+2018-11-04 12:31:39 pid:18669 Workerman[./php54n/game14.php] already running
+2018-11-04 12:31:39 pid:18670 Workerman[./php54n/game4.php] start in DAEMON mode
+2018-11-04 12:31:39 pid:18670 Workerman[./php54n/game4.php] already running
+2018-11-04 12:31:39 pid:18671 Workerman[./php54n/game6.php] start in DAEMON mode
+2018-11-04 12:31:39 pid:18671 Workerman[./php54n/game6.php] already running
+2018-11-04 12:31:39 pid:18672 Workerman[./php54n/game16.php] start in DAEMON mode
+2018-11-04 12:31:39 pid:18672 Workerman[./php54n/game16.php] already running
+2018-11-04 12:31:39 pid:18673 Workerman[./php54n/game17.php] start in DAEMON mode
+2018-11-04 12:31:39 pid:18673 Workerman[./php54n/game17.php] already running
+2018-11-04 12:31:39 pid:18674 Workerman[./php54n/game26.php] start in DAEMON mode
+2018-11-04 12:31:39 pid:18674 Workerman[./php54n/game26.php] already running
+2018-11-04 12:31:39 pid:18675 Workerman[./php54n/game27.php] start in DAEMON mode
+2018-11-04 12:31:39 pid:18675 Workerman[./php54n/game27.php] already running
+2018-11-07 16:38:04 pid:11715 Workerman[server.php] start in DAEMON mode
+2018-11-07 16:38:08 pid:11722 Workerman[./php54n/test.php] start in DAEMON mode
+2018-11-07 16:38:08 pid:11726 Workerman[./php54n/game2.php] start in DAEMON mode
+2018-11-07 16:38:08 pid:11730 Workerman[./php54n/game1.php] start in DAEMON mode
+2018-11-07 16:38:08 pid:11734 Workerman[./php54n/game5.php] start in DAEMON mode
+2018-11-07 16:38:08 pid:11738 Workerman[./php54n/game10.php] start in DAEMON mode
+2018-11-07 16:38:08 pid:11742 Workerman[./php54n/game3.php] start in DAEMON mode
+2018-11-07 16:38:08 pid:11746 Workerman[./php54n/game14.php] start in DAEMON mode
+2018-11-07 16:38:08 pid:11750 Workerman[./php54n/game4.php] start in DAEMON mode
+2018-11-07 16:38:09 pid:11754 Workerman[./php54n/game6.php] start in DAEMON mode
+2018-11-07 16:38:09 pid:11758 Workerman[./php54n/game16.php] start in DAEMON mode
+2018-11-07 16:38:09 pid:11762 Workerman[./php54n/game17.php] start in DAEMON mode
+2018-11-07 16:38:09 pid:11766 Workerman[./php54n/game26.php] start in DAEMON mode
+2018-11-07 16:38:09 pid:11770 Workerman[./php54n/game27.php] start in DAEMON mode

@@ -22,7 +22,7 @@ $worker = new Worker('websocket://0.0.0.0:' . $serverdk);
 $worker->onWorkerStart = function ($worker) {
 	global $db;
 	ouput('程序开始运行');
-	$serverlsit = $db->getAll("select * from jz_server where zt=0");
+	$serverlsit = $db->getAll("select * from jz_server");
 	$command = '';
 	foreach ($serverlsit as $key => $value) {
 		$map = array();
